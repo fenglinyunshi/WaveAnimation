@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAD003EE1E8F8BA9008CF549 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD003ED1E8F8BA9008CF549 /* main.m */; };
+		DAD003F11E8F8BA9008CF549 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD003F01E8F8BA9008CF549 /* AppDelegate.m */; };
+		DAD003F41E8F8BA9008CF549 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD003F31E8F8BA9008CF549 /* ViewController.m */; };
+		DAD003F71E8F8BA9008CF549 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD003F51E8F8BA9008CF549 /* Main.storyboard */; };
+		DAD003F91E8F8BA9008CF549 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAD003F81E8F8BA9008CF549 /* Assets.xcassets */; };
+		DAD003FC1E8F8BA9008CF549 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAD003FA1E8F8BA9008CF549 /* LaunchScreen.storyboard */; };
+		DAD004071E8F8BA9008CF549 /* WaveAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD004061E8F8BA9008CF549 /* WaveAnimationTests.m */; };
+		DAD004121E8F8BA9008CF549 /* WaveAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD004111E8F8BA9008CF549 /* WaveAnimationUITests.m */; };
+		DAD004211E8F8BE1008CF549 /* WaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAD004201E8F8BE1008CF549 /* WaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAD004031E8F8BA9008CF549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD003E11E8F8BA9008CF549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD003E81E8F8BA9008CF549;
+			remoteInfo = WaveAnimation;
+		};
+		DAD0040E1E8F8BA9008CF549 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAD003E11E8F8BA9008CF549 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAD003E81E8F8BA9008CF549;
+			remoteInfo = WaveAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAD003E91E8F8BA9008CF549 /* WaveAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaveAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD003ED1E8F8BA9008CF549 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAD003EF1E8F8BA9008CF549 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAD003F01E8F8BA9008CF549 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAD003F21E8F8BA9008CF549 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAD003F31E8F8BA9008CF549 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAD003F61E8F8BA9008CF549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAD003F81E8F8BA9008CF549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAD003FB1E8F8BA9008CF549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAD003FD1E8F8BA9008CF549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD004021E8F8BA9008CF549 /* WaveAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD004061E8F8BA9008CF549 /* WaveAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveAnimationTests.m; sourceTree = "<group>"; };
+		DAD004081E8F8BA9008CF549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD0040D1E8F8BA9008CF549 /* WaveAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaveAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAD004111E8F8BA9008CF549 /* WaveAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaveAnimationUITests.m; sourceTree = "<group>"; };
+		DAD004131E8F8BA9008CF549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAD0041F1E8F8BE1008CF549 /* WaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaveView.h; sourceTree = "<group>"; };
+		DAD004201E8F8BE1008CF549 /* WaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAD003E61E8F8BA9008CF549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD003FF1E8F8BA9008CF549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD0040A1E8F8BA9008CF549 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAD003E01E8F8BA9008CF549 = {
+			isa = PBXGroup;
+			children = (
+				DAD003EB1E8F8BA9008CF549 /* WaveAnimation */,
+				DAD004051E8F8BA9008CF549 /* WaveAnimationTests */,
+				DAD004101E8F8BA9008CF549 /* WaveAnimationUITests */,
+				DAD003EA1E8F8BA9008CF549 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAD003EA1E8F8BA9008CF549 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAD003E91E8F8BA9008CF549 /* WaveAnimation.app */,
+				DAD004021E8F8BA9008CF549 /* WaveAnimationTests.xctest */,
+				DAD0040D1E8F8BA9008CF549 /* WaveAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAD003EB1E8F8BA9008CF549 /* WaveAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DAD003EF1E8F8BA9008CF549 /* AppDelegate.h */,
+				DAD003F01E8F8BA9008CF549 /* AppDelegate.m */,
+				DAD003F21E8F8BA9008CF549 /* ViewController.h */,
+				DAD003F31E8F8BA9008CF549 /* ViewController.m */,
+				DAD0041F1E8F8BE1008CF549 /* WaveView.h */,
+				DAD004201E8F8BE1008CF549 /* WaveView.m */,
+				DAD003F51E8F8BA9008CF549 /* Main.storyboard */,
+				DAD003F81E8F8BA9008CF549 /* Assets.xcassets */,
+				DAD003FA1E8F8BA9008CF549 /* LaunchScreen.storyboard */,
+				DAD003FD1E8F8BA9008CF549 /* Info.plist */,
+				DAD003EC1E8F8BA9008CF549 /* Supporting Files */,
+			);
+			path = WaveAnimation;
+			sourceTree = "<group>";
+		};
+		DAD003EC1E8F8BA9008CF549 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAD003ED1E8F8BA9008CF549 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAD004051E8F8BA9008CF549 /* WaveAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD004061E8F8BA9008CF549 /* WaveAnimationTests.m */,
+				DAD004081E8F8BA9008CF549 /* Info.plist */,
+			);
+			path = WaveAnimationTests;
+			sourceTree = "<group>";
+		};
+		DAD004101E8F8BA9008CF549 /* WaveAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAD004111E8F8BA9008CF549 /* WaveAnimationUITests.m */,
+				DAD004131E8F8BA9008CF549 /* Info.plist */,
+			);
+			path = WaveAnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAD003E81E8F8BA9008CF549 /* WaveAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD004161E8F8BA9008CF549 /* Build configuration list for PBXNativeTarget "WaveAnimation" */;
+			buildPhases = (
+				DAD003E51E8F8BA9008CF549 /* Sources */,
+				DAD003E61E8F8BA9008CF549 /* Frameworks */,
+				DAD003E71E8F8BA9008CF549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaveAnimation;
+			productName = WaveAnimation;
+			productReference = DAD003E91E8F8BA9008CF549 /* WaveAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAD004011E8F8BA9008CF549 /* WaveAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD004191E8F8BA9008CF549 /* Build configuration list for PBXNativeTarget "WaveAnimationTests" */;
+			buildPhases = (
+				DAD003FE1E8F8BA9008CF549 /* Sources */,
+				DAD003FF1E8F8BA9008CF549 /* Frameworks */,
+				DAD004001E8F8BA9008CF549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD004041E8F8BA9008CF549 /* PBXTargetDependency */,
+			);
+			name = WaveAnimationTests;
+			productName = WaveAnimationTests;
+			productReference = DAD004021E8F8BA9008CF549 /* WaveAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAD0040C1E8F8BA9008CF549 /* WaveAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAD0041C1E8F8BA9008CF549 /* Build configuration list for PBXNativeTarget "WaveAnimationUITests" */;
+			buildPhases = (
+				DAD004091E8F8BA9008CF549 /* Sources */,
+				DAD0040A1E8F8BA9008CF549 /* Frameworks */,
+				DAD0040B1E8F8BA9008CF549 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAD0040F1E8F8BA9008CF549 /* PBXTargetDependency */,
+			);
+			name = WaveAnimationUITests;
+			productName = WaveAnimationUITests;
+			productReference = DAD0040D1E8F8BA9008CF549 /* WaveAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAD003E11E8F8BA9008CF549 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = PicVision;
+				TargetAttributes = {
+					DAD003E81E8F8BA9008CF549 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6365DA2KWN;
+						ProvisioningStyle = Automatic;
+					};
+					DAD004011E8F8BA9008CF549 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6365DA2KWN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAD003E81E8F8BA9008CF549;
+					};
+					DAD0040C1E8F8BA9008CF549 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6365DA2KWN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAD003E81E8F8BA9008CF549;
+					};
+				};
+			};
+			buildConfigurationList = DAD003E41E8F8BA9008CF549 /* Build configuration list for PBXProject "WaveAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAD003E01E8F8BA9008CF549;
+			productRefGroup = DAD003EA1E8F8BA9008CF549 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAD003E81E8F8BA9008CF549 /* WaveAnimation */,
+				DAD004011E8F8BA9008CF549 /* WaveAnimationTests */,
+				DAD0040C1E8F8BA9008CF549 /* WaveAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAD003E71E8F8BA9008CF549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD003FC1E8F8BA9008CF549 /* LaunchScreen.storyboard in Resources */,
+				DAD003F91E8F8BA9008CF549 /* Assets.xcassets in Resources */,
+				DAD003F71E8F8BA9008CF549 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD004001E8F8BA9008CF549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD0040B1E8F8BA9008CF549 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAD003E51E8F8BA9008CF549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD003F41E8F8BA9008CF549 /* ViewController.m in Sources */,
+				DAD003F11E8F8BA9008CF549 /* AppDelegate.m in Sources */,
+				DAD003EE1E8F8BA9008CF549 /* main.m in Sources */,
+				DAD004211E8F8BE1008CF549 /* WaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD003FE1E8F8BA9008CF549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD004071E8F8BA9008CF549 /* WaveAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAD004091E8F8BA9008CF549 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAD004121E8F8BA9008CF549 /* WaveAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAD004041E8F8BA9008CF549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD003E81E8F8BA9008CF549 /* WaveAnimation */;
+			targetProxy = DAD004031E8F8BA9008CF549 /* PBXContainerItemProxy */;
+		};
+		DAD0040F1E8F8BA9008CF549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAD003E81E8F8BA9008CF549 /* WaveAnimation */;
+			targetProxy = DAD0040E1E8F8BA9008CF549 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAD003F51E8F8BA9008CF549 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD003F61E8F8BA9008CF549 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAD003FA1E8F8BA9008CF549 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAD003FB1E8F8BA9008CF549 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAD004141E8F8BA9008CF549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAD004151E8F8BA9008CF549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAD004171E8F8BA9008CF549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = WaveAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PicVision.WaveAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAD004181E8F8BA9008CF549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = WaveAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PicVision.WaveAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAD0041A1E8F8BA9008CF549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = WaveAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PicVision.WaveAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveAnimation.app/WaveAnimation";
+			};
+			name = Debug;
+		};
+		DAD0041B1E8F8BA9008CF549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = WaveAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PicVision.WaveAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaveAnimation.app/WaveAnimation";
+			};
+			name = Release;
+		};
+		DAD0041D1E8F8BA9008CF549 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = WaveAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PicVision.WaveAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaveAnimation;
+			};
+			name = Debug;
+		};
+		DAD0041E1E8F8BA9008CF549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6365DA2KWN;
+				INFOPLIST_FILE = WaveAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PicVision.WaveAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WaveAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAD003E41E8F8BA9008CF549 /* Build configuration list for PBXProject "WaveAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD004141E8F8BA9008CF549 /* Debug */,
+				DAD004151E8F8BA9008CF549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAD004161E8F8BA9008CF549 /* Build configuration list for PBXNativeTarget "WaveAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD004171E8F8BA9008CF549 /* Debug */,
+				DAD004181E8F8BA9008CF549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD004191E8F8BA9008CF549 /* Build configuration list for PBXNativeTarget "WaveAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD0041A1E8F8BA9008CF549 /* Debug */,
+				DAD0041B1E8F8BA9008CF549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAD0041C1E8F8BA9008CF549 /* Build configuration list for PBXNativeTarget "WaveAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAD0041D1E8F8BA9008CF549 /* Debug */,
+				DAD0041E1E8F8BA9008CF549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAD003E11E8F8BA9008CF549 /* Project object */;
+}
