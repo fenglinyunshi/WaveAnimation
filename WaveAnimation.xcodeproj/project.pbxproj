@@ -215,7 +215,7 @@
 				TargetAttributes = {
 					DAD003E81E8F8BA9008CF549 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 6365DA2KWN;
+						DevelopmentTeam = UH86AS4452;
 						ProvisioningStyle = Automatic;
 					};
 					DAD004011E8F8BA9008CF549 = {
@@ -437,11 +437,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6365DA2KWN;
+				DEVELOPMENT_TEAM = UH86AS4452;
 				INFOPLIST_FILE = WaveAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.PicVision.WaveAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = etr.com.pingan.managerassistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -450,11 +450,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 6365DA2KWN;
+				DEVELOPMENT_TEAM = UH86AS4452;
 				INFOPLIST_FILE = WaveAnimation/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.PicVision.WaveAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = etr.com.pingan.managerassistant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
